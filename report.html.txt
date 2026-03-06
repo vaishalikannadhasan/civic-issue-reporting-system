@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report Issue</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Report Civic Issue</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="report.html">Report Issue</a>
+<a href="issues.html">View Issues</a>
+</nav>
+
+<div class="container">
+
+<form id="issueForm">
+
+<label>Issue Title</label>
+<input type="text" id="title" required>
+
+<label>Description</label>
+<textarea id="description" required></textarea>
+
+<label>Category</label>
+<select id="category">
+<option>Pothole</option>
+<option>Garbage</option>
+<option>Streetlight</option>
+<option>Water Leakage</option>
+</select>
+
+<button type="submit">Submit Issue</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

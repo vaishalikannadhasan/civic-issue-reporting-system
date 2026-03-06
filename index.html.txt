@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Civic Issue Reporting System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Crowdsourced Civic Issue Reporting System</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="report.html">Report Issue</a>
+<a href="issues.html">View Issues</a>
+</nav>
+
+<div class="container">
+
+<h2>Welcome</h2>
+
+<p>
+This platform allows citizens to report civic issues such as potholes,
+garbage overflow, broken streetlights and water leakage.
+</p>
+
+<p>
+Users can submit issues and authorities can track them.
+</p>
+
+</div>
+
+</body>
+</html>
